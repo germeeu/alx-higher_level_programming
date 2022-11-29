@@ -4,4 +4,4 @@ for num in range(0, 90):
         if num != 89:
             print(f"{num:02d}, ", end='')
         else:
-            print("{num:02d}")
+            print(f"{num:02d}")
