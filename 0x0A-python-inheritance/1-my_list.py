@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" Class that inherits the attributes references of class list """
+
+
 class MyList(list):
     """ Class that inherits the attributes references of class list
     Args:
@@ -9,4 +12,4 @@ class MyList(list):
         """ Method that prints the sorted list """
         l_sorted = self.copy()
         l_sorted.sort()
-        print(l_sorted)
+        print(l_sortedi)
