@@ -8,8 +8,10 @@ class MyList(list):
         list: class list
     """
 
+    def __init__(self):
+        """initializes the object"""
+        super().__init__()
+
     def print_sorted(self):
-        """ Method that prints the sorted list """
-        l_sorted = self.copy()
-        l_sorted.sort()
-        print(l_sortedi)
+        """prints the sorted list"""
+        print(sorted(self))
